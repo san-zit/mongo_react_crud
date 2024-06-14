@@ -4,6 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
+# Ignore .env files
+client/.env
+server/.env
+
+# Other common ignores
+node_modules/
+dist/
 
 # testing
 /coverage
